@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Doughnut } from 'react-chartjs-2';
 
 
+
 class Chart1 extends Component {
   render() {
     let { purchases, budgetLimit } = this.props;
